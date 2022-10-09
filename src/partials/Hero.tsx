@@ -10,20 +10,22 @@ const Hero = () => (
     <HeroAvatar
       title={
         <>
-          Hi there, I'm <GradientText>Alex</GradientText> 👋
+          Hola! Soy <GradientText>Alex</GradientText> 👋
         </>
       }
       description={
         <>
-          I am currently working as a front end developer at Mindera. Lately,
-          I've been learning more about{' '}
+          Actualmente estoy en Buenos Aires trabajando como desarrollador
+          front-end en Mindera, una empresa radicada en Portugal.
+          <br></br>Este último tiempo he estado aprendiendo un poco más sobre{' '}
           <a className="text-cyan-400 hover:underline" href="/">
             TypeScript
           </a>{' '}
-          and generics, since I have been working with React since 2020.
+          generics, lo cual me llevó a hacer este pequeño blog que sirve de
+          anotaciones sobre mi aprendizaje.
           <br></br>
-          Other interests of mine are dancing bachata and working out, although
-          I don't take that last one so seriously!
+          Otros intereses o pasatiempos míos son bailar y entrenar, aunque no me
+          tomo muy en serio este último!
         </>
       }
       avatar={
